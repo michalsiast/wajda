@@ -117,8 +117,11 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="image pe-3">
-                            <img style="height: 560px; object-fit: cover" src="{{asset('images/contact.jpg')}}" alt="messages-image"
-                                 class="img-fluid w-100">
+{{--                            <img style="height: 560px; object-fit: cover" src="{{asset('images/contact.jpg')}}" alt="messages-image"--}}
+{{--                                 class="img-fluid w-100">--}}
+                            <video width="640" height="750" controls>
+                                <source src="{{asset('images/film_1.mp4')}}" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                     <div class="col-lg-6 align-self-center">
