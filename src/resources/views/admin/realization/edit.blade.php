@@ -3,7 +3,7 @@
 
     <main>
 
-        <form id="realization" method="POST" action="{{route('admin.realization.edit', $item)}}">
+        <form id="realization" method="POST" action="{{route('admin.realization.edit', $item)}}" enctype="multipart/form-data">
             @csrf
 
             <div class="row">
@@ -32,6 +32,15 @@
 
                             {!! $form->renderFieldGroup('realization_category_id') !!}
                             {!! $form->renderFieldGroup('title') !!}
+                            {!! $form->renderFieldGroup('video_path') !!}
+                            <div>
+                                <label><b>Wybrany plik wideo:</b></label>
+                                @if($item->video_path)
+                                    <p>Dodano plik wideo</p>
+                                @else
+                                    <p>Nie dodano pliku wideo</p>
+                                @endif
+                            </div>
 {{--                            {!! $form->renderFieldGroup('lead') !!}--}}
 {{--                            {!! $form->renderFieldGroup('text') !!}--}}
 

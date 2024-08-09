@@ -135,6 +135,7 @@ return [
     'realization.title' => 'Tytuł',
     'realization.lead' => 'Wprowadzenie',
     'realization.text' => 'Tekst',
+    'realization.video_path' => 'Film wideo',
 
 
     'realization_category.singular' => 'Kategoria realizacji',

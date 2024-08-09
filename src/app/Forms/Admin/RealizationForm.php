@@ -48,6 +48,13 @@ class RealizationForm extends Form
             'rules' => [],
             'options' => [],
         ],
+        'video_path' => [
+            'name' => 'video_path',
+            'type' => 'file',
+            'label' => 'admin.realization.video_path',
+            'rules' => ['file', 'mimes:mp4'],
+            'options' => [],
+        ],
         'active' => [
             'name' => 'active',
             'type' => 'checkbox',

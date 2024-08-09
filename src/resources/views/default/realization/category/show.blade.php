@@ -24,12 +24,9 @@
                 <div class="row">
                     @foreach($items as $item)
                         @if($item->realization_category_id === 2)
-                            <div>
-                                <video width="640" height="500" controls>
-                                    <source src="{{asset('images/film_1.mp4')}}" type="video/mp4">
-                                </video>
-                                <video width="640" height="500" controls>
-                                    <source src="{{asset('images/film_2.mp4')}}" type="video/mp4">
+                            <div class="col-lg-6" style="margin-bottom: 15px">
+                                <video width="100%" height="500" controls>
+                                    <source src="{{ asset('storage/' . $item->video_path) }}" type="video/mp4">
                                 </video>
                             </div>
                         @else

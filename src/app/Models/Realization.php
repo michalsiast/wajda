@@ -8,7 +8,7 @@ class Realization extends BaseModel
 {
     protected $table = 'realization';
 
-    protected $fillable = ['realization_category_id', 'title', 'lead', 'text', 'position', 'active'];
+    protected $fillable = ['realization_category_id', 'title', 'lead', 'text', 'video_path', 'position', 'active'];
 
     public function gallery() {
         return $this->belongsTo(Gallery::class);
