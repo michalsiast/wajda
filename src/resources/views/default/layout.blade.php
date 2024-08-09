@@ -87,7 +87,7 @@
         <div class="container-fluid">
             <a class="navbar-brand me-0" href="/">
 {{--                <img src="{{asset('images/logo.png')}}" alt="logo">--}}
-                <h3>WIELOBRANŻOWA DANIEL WAJDA</h3>
+                <h3>FIRMA WIELOBRANŻOWA <br> DANIEL WAJDA</h3>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,7 +125,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="logo">
 {{--                        <img src="{{asset('images/logo.png')}}" alt="logo">--}}
-                        <h3>WIELOBRANŻOWA DANIEL WAJDA</h3>
+                        <h3>FIRMA WIELOBRANŻOWA <br> DANIEL WAJDA</h3>
                     </div>
                     <div class="bars">
                         <i class="fas fa-bars"></i>
@@ -138,7 +138,7 @@
             <div class="logo">
                 <a href="/">
 {{--                    <img src="{{asset('images/logo.png')}}" alt="logo">--}}
-                    <h3>WIELOBRANŻOWA DANIEL WAJDA</h3>
+                    <h3>FIRMA WIELOBRANŻOWA <br> DANIEL WAJDA</h3>
                 </a>
             </div>
             <div class="close-mobile-menu"><i class="fas fa-times"></i></div>
@@ -184,7 +184,7 @@
                             <div class="footer-logo">
                                 <a href="/">
 {{--                                    <img src="{{asset('images/logo.png')}}" alt="white-logo">--}}
-                                    <h3 style="color: #fff">WIELOBRANŻOWA DANIEL WAJDA</h3>
+                                    <h3 style="color: #fff">FIRMA WIELOBRANŻOWA <br> DANIEL WAJDA</h3>
                                 </a>
                             </div>
                             <div class="footer-content">
