@@ -2829,6 +2829,36 @@ p {
     font-size: 30px!important;
 }
 
+.dot {
+    position: absolute;
+    border: 2px solid #fff;
+    background: var(--primary-color);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    animation: pulse .5s cubic-bezier(.51, 0, 0.4, .5) alternate infinite;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: none;
+}
+
+.dot.active {
+    animation: bounce .5s ease;
+}
+
+@keyframes bounce {
+    100% {
+        transform: translate(-50%, -50%) scale(2);
+        opacity: 0;
+    }
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
 .get-updates-area-two .sent-email-box .submit-btn:hover {
 	background-color: var(--primary-color);
 	border-color: var(--primary-color);

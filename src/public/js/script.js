@@ -384,3 +384,40 @@
 	});
 
 })(jQuery);
+
+const bob = document.querySelector('.dot');
+
+let mouseX = 0;
+let mouseY = 0;
+
+let ballX = 0;
+let ballY = 0;
+
+let speed = 0.2;  // Szybkość, z jaką kropka dogania kursor
+
+function animate() {
+    let distX = mouseX - ballX;
+    let distY = mouseY - ballY;
+
+    ballX = ballX + (distX * speed);
+    ballY = ballY + (distY * speed);
+
+    bob.style.left = (ballX - 8) + 'px';
+    bob.style.top = (ballY - 8) + 'px';
+
+    requestAnimationFrame(animate);
+}
+
+document.addEventListener('mousemove', function(e) {
+    mouseX = e.pageX;
+    mouseY = e.pageY;
+});
+
+// Początkowe ustawienie kropki nad kursorem
+bob.style.left = ballX + 'px';
+bob.style.top = (ballY - 8) + 'px';
+
+animate();
+
+
+
