@@ -95,6 +95,14 @@ class ConstFieldForm extends Form
             'label' => 'admin.const_field.contact_form_email',
             'rules' => [],
         ],
+        'company_description' => [
+            'name' => 'company_description',
+            'type' => 'textarea',
+            'label' => 'admin.const_field.company_description',
+            'rules' => [],
+            'row' => 5,
+            'class' => 'ckeditorStandard',
+        ],
         'google_map' => [
             'name' => 'google_map',
             'type' => 'text',

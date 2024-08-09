@@ -28,9 +28,9 @@
                         </div>
 
                         <div class="card-body">
-                            {!! $form->renderFieldGroup('article_category_id') !!}
+{{--                            {!! $form->renderFieldGroup('article_category_id') !!}--}}
                             {!! $form->renderFieldGroup('title') !!}
-                            {!! $form->renderFieldGroup('lead') !!}
+{{--                            {!! $form->renderFieldGroup('lead') !!}--}}
                             {!! $form->renderFieldGroup('text') !!}
                             <hr>
                             {!! $form->renderFieldGroup('active') !!}

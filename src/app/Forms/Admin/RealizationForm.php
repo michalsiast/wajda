@@ -36,11 +36,9 @@ class RealizationForm extends Form
         ],
         'lead' => [
             'name' => 'lead',
-            'type' => 'textarea',
+            'type' => 'text',
             'label' => 'admin.realization.lead',
-            'class' => 'ckeditorStandard',
             'rules' => [],
-            'options' => [],
         ],
         'text' => [
             'name' => 'text',

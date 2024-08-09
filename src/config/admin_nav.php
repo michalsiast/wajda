@@ -54,11 +54,11 @@ return [
                         'icon' => 'arrow-up-left',
                         'route_name' => 'admin.article.index',
                     ],
-                    'article_category' => [
-                        'label' => 'admin.article_category.plural',
-                        'icon' => 'arrow-up-left',
-                        'route_name' => 'admin.article_category.index',
-                    ],
+//                    'article_category' => [
+//                        'label' => 'admin.article_category.plural',
+//                        'icon' => 'arrow-up-left',
+//                        'route_name' => 'admin.article_category.index',
+//                    ],
                 ]
             ],
             'offer' => [

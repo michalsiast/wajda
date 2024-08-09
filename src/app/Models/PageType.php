@@ -20,8 +20,19 @@ abstract class PageType extends Enum
         'module' => false,
         'fields' => [
             'rotator' => ['rotator', 'Slider'],
-            'head1' => ['head', 'Tytuł'],
-            'text1' => ['text', 'Tekst'],
+            'sub_title_about_us' => ['head', 'Nagłówek - O nas'],
+            'title_about_us' => ['head', 'Tytuł - O nas'],
+            'description_about_us' => ['text', 'Opis - O nas'],
+            'title_why_us' => ['head', 'Tytuł - Dlaczego My'],
+            'description_why_us' => ['text', 'Opis - Dlaczego My'],
+            'header_offer' => ['head', 'Nagłówek - Oferta'],
+            'title_offer' => ['head', 'Tytuł - Oferta'],
+            'description_offer' => ['text', 'Opis - Oferta'],
+            'header_specialization' => ['head', 'Nagłówek - Nasza specjalizacja'],
+            'description_specialization' => ['text', 'Opis - Nasza specjalizacja'],
+            'subtitle_contact' => ['head', 'Podtytuł - Kontakt'],
+            'title_contact' => ['head', 'Tytuł - Kontakt'],
+            'description_contact' => ['text', 'Opis - Kontakt'],
         ]
     ];
     const PAGE_SHOW = [
@@ -49,7 +60,9 @@ abstract class PageType extends Enum
         'name' => 'contact.show',
         'module' => false,
         'fields' => [
-            'text1' => ['text', '']
+            'header_contact' => ['head', 'Nagłówek - Kontakt'],
+            'title_contact' => ['head', 'Tytuł - Kontakt'],
+            'description_contact' => ['text', 'Opis - Kontakt'],
         ]
     ];
     const ARTICLE_INDEX = [

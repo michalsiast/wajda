@@ -32,8 +32,8 @@
 
                             {!! $form->renderFieldGroup('realization_category_id') !!}
                             {!! $form->renderFieldGroup('title') !!}
-                            {!! $form->renderFieldGroup('lead') !!}
-                            {!! $form->renderFieldGroup('text') !!}
+{{--                            {!! $form->renderFieldGroup('lead') !!}--}}
+{{--                            {!! $form->renderFieldGroup('text') !!}--}}
 
                             <hr>
                             {!! $form->renderFieldGroup('active') !!}
