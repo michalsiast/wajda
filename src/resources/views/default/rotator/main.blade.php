@@ -16,7 +16,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="banner-info">
-                            <span class="sub-title uppercase wow fadeInLeft" data-wow-delay=".2s">Wielobranżowa</span>
+                            <span class="sub-title uppercase wow fadeInLeft" data-wow-delay=".2s">Firma Wielobranżowa</span>
                             <h2 class="banner-title wow fadeInLeft" data-wow-delay=".4s">{{$item->name}}</h2>
                             <p class="wow fadeInLeft" data-wow-delay=".6s">{!! $item->text !!}</p>
                             <a href="{{route('realization_category.index')}}" class="common-btn uppercase wow fadeInLeft"
