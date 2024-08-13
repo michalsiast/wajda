@@ -89,7 +89,7 @@
 <section class="working-process-area-one">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6" style="display: flex;flex-direction: column;justify-content: center;">
+            <div class="col-lg-6" style="display: flex;flex-direction: column;justify-content: center; background-image: url({{asset('images/excavator-bg.png')}})">
                 <div class="section-title-one">
                     @if (!empty($fields->header_specialization))
                         <h2 class="title">{{$fields->header_specialization}}</h2>

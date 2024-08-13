@@ -1646,6 +1646,11 @@ p {
 	padding: 30px;
 	border: 1px solid var(--border-colour);
 	border-radius: 5px;
+    transition: 0.2s all;
+}
+
+.service-details-area .service-inner-details .service-info-item:hover {
+    border: 1px solid var(--primary-color);
 }
 
 .service-details-area .service-inner-details .service-info-item .icon {
