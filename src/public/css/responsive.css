@@ -1019,10 +1019,6 @@
 
   /* testimonial part end */
   /* message part start */
-  .messages-area-one .messages-area-one-main .image {
-    display: none;
-  }
-
   .messages-area-one .messages-area-one-bg .text {
     padding: 40px 40px 40px 40px;
   }
@@ -1518,10 +1514,6 @@
 
   /* testimonial part end */
   /* message part start */
-  .messages-area-one .messages-area-one-main .image {
-    display: none;
-  }
-
   .messages-area-one .messages-area-one-bg .text {
     padding: 40px 40px 40px 40px;
   }
@@ -2217,10 +2209,6 @@
   /* message part start */
   .messages-area-one {
     padding-top: 100px;
-  }
-
-  .messages-area-one .messages-area-one-main .image {
-    display: none;
   }
 
   .messages-area-one .messages-area-one-bg .text {

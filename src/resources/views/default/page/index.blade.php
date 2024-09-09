@@ -140,7 +140,7 @@
                                 @if(!empty($fields->description_contact))
                                     {!! $fields->description_contact !!}
                                 @endif
-                                    <a href="about-us.html" class="common-btn uppercase wow contact-button" >Napisz do nas <i class="fas fa-plus"></i></a>
+                                    <a href="{{route('contact.show')}}" class="common-btn uppercase wow contact-button" >Napisz do nas <i class="fas fa-plus"></i></a>
                             </div>
                         </div>
                     </div>
